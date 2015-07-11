@@ -9,10 +9,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-div {
-    position: absolute;
+div.logo {
+    position: relative;
 }
-
+div.logo img {
+    margin: 20px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+}
 img {
     max-width: 30px;
     max-height: 30px;
