@@ -13,7 +13,6 @@ div.logo {
     position: relative;
 }
 div.logo img {
-    margin: 20px;
     position: absolute;
 
 }
@@ -22,10 +21,7 @@ img {
     max-height: 100px;
 }
 
-.logo {
-
-}
-
-.intro{
+div.intro{
     text-align: center;
+    display: block;
 }
