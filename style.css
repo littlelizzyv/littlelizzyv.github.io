@@ -15,12 +15,11 @@ div.logo {
 div.logo img {
     margin: 20px;
     position: absolute;
-    left: 50%;
-    margin-right: -50%;
+
 }
 img {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .logo {
