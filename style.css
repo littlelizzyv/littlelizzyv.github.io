@@ -25,9 +25,9 @@ img {
 }
 
 div.intro{
-    text-align: right;
     display: inline-block;
     margin: auto;
+    text-align: right;
     padding-left: 50%;
-    padding-top: 20%;
+    padding-top: 10%;
 }
