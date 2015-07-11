@@ -35,13 +35,13 @@ div.intro{
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) { 
 
         div.logo {
-            left: 35%;
+            left: 30%;
             padding-bottom: 20px;
         }
         
         div.intro{
-            padding-left: 5%;
-            padding-top: 100px;
+            padding-left: 1%;
+            padding-top: 180px;
             font-size: 1.3em;
         }
 
