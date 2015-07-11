@@ -32,6 +32,21 @@ div.intro{
     padding-top: 20%;
 }
 
+a {
+    display: inline-block;
+    margin: auto;
+    padding-left: 35%;
+    padding-top: 20%;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+
+/******************************************************************
+
+                Responsive Part
+
+******************************************************************/
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) { 
 
         div.logo {
@@ -43,7 +58,7 @@ div.intro{
             padding-left: 1%;
             padding-top: 100px;
             margin-top: 100px;
-            font-size: 2em;
+            font-size: 1.5em;
         }
 
 }
