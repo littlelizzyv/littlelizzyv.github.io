@@ -11,10 +11,12 @@ body {
 }
 div.logo {
     position: relative;
+    top: -50%;  
+    left: 50%;
+    margin-right: -50%;
 }
 div.logo img {
     position: absolute;
-    left: 50%;
 
 }
 img {
@@ -23,7 +25,7 @@ img {
 }
 
 div.intro{
-    text-align: center;
-    display: block;
-    margin: 200px 0px;
+    text-align: right;
+    display: inline-block;
+    margin: 100px 0px;
 }
