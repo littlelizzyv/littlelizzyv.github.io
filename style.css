@@ -41,7 +41,8 @@ div.intro{
         
         div.intro{
             padding-left: 1%;
-            padding-top: 180px;
+            padding-top: 100px;
+            margin-top: 100px;
             font-size: 1.3em;
         }
 
