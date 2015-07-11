@@ -10,11 +10,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 div {
-    display: inline-block;
+    position: absolute;
 }
 
 img {
-    max-width: 30%;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .logo {
