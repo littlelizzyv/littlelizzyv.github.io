@@ -14,6 +14,7 @@ div.logo {
 }
 div.logo img {
     position: absolute;
+    left: 50%;
 
 }
 img {
@@ -24,4 +25,5 @@ img {
 div.intro{
     text-align: center;
     display: block;
+    margin: 200px 0px;
 }
