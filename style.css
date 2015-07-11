@@ -27,7 +27,7 @@ img {
 div.intro{
     display: inline-block;
     margin: auto;
-    text-align: right;
+    text-align: center;
     padding-left: 35%;
     padding-top: 20%;
 }
