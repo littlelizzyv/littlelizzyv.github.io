@@ -13,7 +13,7 @@ div.logo {
     position: relative;
     left: 50%;
     margin-right: -50%;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 div.logo img {
     position: absolute;
@@ -28,6 +28,6 @@ div.intro{
     display: inline-block;
     margin: auto;
     text-align: right;
-    padding-left: 50%;
+    padding-left: 30%;
     padding-top: 10%;
 }
