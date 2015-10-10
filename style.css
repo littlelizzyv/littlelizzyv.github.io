@@ -9,6 +9,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.header {
+    margin: 0 auto;
+}
 .logo {
     margin: 0 auto;
 }
@@ -17,7 +20,7 @@ img {
     max-height: 150px;
 }
 
-div.intro{
+.intro{
     margin: 0 auto;
     display: inline-block;
 }
