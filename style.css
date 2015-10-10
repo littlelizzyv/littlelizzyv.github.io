@@ -14,20 +14,18 @@ body {
 }
 .logo {
     margin: 0 auto;
+    width: 30%;
 }
-img {
-    max-width: 150px;
-    max-height: 150px;
-}
-
 .intro{
     margin: 0 auto;
+    width: 40%;
     display: inline-block;
 }
 
 a {
     display: inline-block;
     margin: 0 auto;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -51,6 +49,7 @@ a:hover {
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) { 
 
         .logo {
+            width: 100% !important;
             padding-bottom: 20px;
         }
         
