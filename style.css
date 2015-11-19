@@ -9,7 +9,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 body {
-  background: #d9f2e6;
+  background: #ccccff;
   -webkit-perspective: 1000px;
           perspective: 1000px;
   -webkit-transform-style: preserve-3d;
