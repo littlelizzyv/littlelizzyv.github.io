@@ -4,86 +4,90 @@
     Author: Lizzy V
     
 *********************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
-
-
-body{
+body {
   background: #d9f2e6;
-  perspective: 1000px;
-  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   height: 100vh;
   font-family: "Lobster Two",georgia,serif;
 }
-.card{
+
+.card {
   pointer-events: none;
-  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
   padding: 30px;
   background: #fff;
   border-radius: 5px;
   width: 400px;
   height: 200px;
   margin: auto;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  box-shadow: 0 0 5px rgba(0,0,0,.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   position: relative;
-  
-  &:after{
-    content:" ";
-    position: absolute;
-    width: 100%;
-    height: 10px;
-    border-radius: 50%;
-    left:0;
-    bottom:-50px;
-    box-shadow: 0 30px 20px rgba(0,0,0,.5);
-    
-  }
-  
-  .card-content{
-    margin: auto;
-    text-align: center;
-    transform-style: preserve-3d;
-  }
-  
-  h1, h3, hr{
-    transform: translateZ(100px);
-  }
-  
-  h1{
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: -5px;
-  }
-  
-  h3{
-    font-family: "Quicksand",Arial, Tahoma;
-  }
-  
-  hr{
-    margin-top: -10px;
-    
-  }
-  
-  p{
-    transform: translateZ(50px);
-    display: block;
-    font-family: "Quicksand",georgia,serif;
-    
-    
-    &.related{
-      transform: translateZ(80px);
-      
-    }
-  }
-  a{
-    color:#142a52;
-    pointer-events: auto;
-    font-size: 18px;
-    font-family: "Lobster Two",georgia,serif;
-    font-weight: 400px;
-  }
+}
+.card:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  border-radius: 50%;
+  left: 0;
+  bottom: -50px;
+  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
+}
+.card .card-content {
+  margin: auto;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.card h1, .card h3, .card hr {
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+.card h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: -5px;
+}
+.card h3 {
+  font-family: "Quicksand",georgia,serif;
+}
+.card hr {
+  margin-top: -10px;
+}
+.card p {
+  -webkit-transform: translateZ(50px);
+          transform: translateZ(50px);
+  display: block;
+  font-family: "Quicksand",georgia,serif;
+}
+.card p.related {
+  -webkit-transform: translateZ(80px);
+          transform: translateZ(80px);
+}
+.card a {
+  color: #142a52;
+  pointer-events: auto;
+  font-size: 18px;
+  font-family: "Lobster Two",georgia,serif;
+  font-weight: 400px;
 }
