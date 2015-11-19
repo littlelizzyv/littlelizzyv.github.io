@@ -1,6 +1,8 @@
 #WELCOME!
 
-###The link below will take you to my tiny site, with links to [My Github](https://github.com/littlelizzyv), and my LinkedIn.
+#####The link below will take you to my tiny site and my LinkedIn profile.
 
-## littlelizzyv.github.io
+#### [littlelizzyv.github.io](https://github.com/littlelizzyv)
+
+#ENJOY!
 
